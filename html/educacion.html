@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <svg width="1200px" height="400px" viewBox="0 0 1200 400">
+      <image width="400px" height="400px" xlink:href="../img/logo.svg"></image>
+    </svg>
+    <header>
+      <h1>Hoja de Vida</h1>
+    </header>
+    <h2>Datos Personales</h2>
+    <h3>Nombre: </h3>
+    <p>Sebastian Portocarrero</p>
+    <h3>Fecha de nacimiento: </h3>
+    <p>27 de Agosto de 1994</p>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="educacion.html">Educacion</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+    <h2>Educacion</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institucion</th>
+					<th>Lugar</th>
+					<th>¿Culmino?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2006</td>
+					<td>Instituto de Estudios Avanzados</td>
+					<td>Quetzaltenango</td>
+					<td>si</td>
+				</tr>
+				<tr>
+					<td>2013</td>
+					<td>Instituto Guatemalteco Americano</td>
+					<td>Quetzaltenango</td>
+					<td>si</td>
+				</tr>
+				<tr>
+					<td>2014</td>
+					<td>Universidad del Valle de Guatemala</td>
+					<td>Guatemala</td>
+					<td>No</td>
+				</tr>
+			</tbody>
+		</table>
+
+    <h2>Agregar Estudios</h2>
+    <form action="">
+      <p>
+        <label for="ano">Año</label>
+        <br>
+        <input type="date" name="ano"  autofocus required>
+      </p>
+    	<p>
+    		<label for="institucion">Institucion</label>
+    		<br>
+    		<input type="text" name="institucion" placeholder="Ej: Colegio Americano" autofocus required>
+    	</p>
+
+    	<p>
+    		<label for="culmn">¿Culmino?: </label>
+    		<br>
+    		<input type="radio" name="culmn"> Si
+    		<br>
+    		<input type="radio" name="culmn"> No
+    	</p>
+
+    	<p>
+    		<label for="comment">Lugar: </label>
+    		<br>
+    		<textarea name="comment" id="" cols="30" rows="3"></textarea>
+    	</p>
+
+
+    	<p>
+    		<input type="submit" value="Enviar">
+    	</p>
+    </form>
+    <footer>
+      Derechos Reservados
+      email: sebasportoleon@gmail.com | Telefono: 30241448 | Direccion: km. 224 Hotel del Campo Quetzaltenango
+    </footer>
+
+  </body>
+</html>
